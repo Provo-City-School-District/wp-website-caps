@@ -7,3 +7,14 @@ Author URI: https://tech.provo.edu
 Template: PCSD-2024-Theme
 Version: 0.00.01
 */
+
+
+.siteLogo a {
+    line-height: 1em;
+}
+
+@media (min-width: 800px) {
+    #mainHeader {
+        grid-template-columns: minmax(350px, 600px) 1fr 100px;
+    }
+}

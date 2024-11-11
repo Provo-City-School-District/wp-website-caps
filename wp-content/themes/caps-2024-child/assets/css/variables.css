@@ -2,8 +2,8 @@
 
 
 :root {
-  --main-color: #275a3b;
-  --main-offset: #d6d6d6;
+  --main-color: #194486;
+  --main-offset: #999;
   --cal-color: #c1dc89;
   --com-color: #54575a;
   --stu-color: var(--main-color);
@@ -23,10 +23,11 @@
 #socialIcon path {
   fill: var(--main-color);
 }
+
 .sidebar #socialIcon path {
   fill: var(--theme-white);
 }
+
 .siteLogo a {
   font-family: 'Merriweather', serif;
 }
-

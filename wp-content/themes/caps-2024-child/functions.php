@@ -10,7 +10,7 @@ function my_theme_variables()
         'google_tag_manager_id' => 'G-FTPJPV04N2',
         'top_sidebar_cal' => '[calendar id="2064"]',
         'bot_sidebar_cal' => '[calendar id="2066"]',
-        'front_page_cal' => '[calendar id="2069"]',
+        'front_page_cal' => '[calendar id="102"]',
         'insta_link' => 'https://provohigh.provo.edu/provo-high-social-media/',
         'facebook_link' => 'https://provohigh.provo.edu/provo-high-social-media/',
         // 'twitter_link' => 'https://provohigh.provo.edu/provo-high-social-media/',

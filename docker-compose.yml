@@ -45,7 +45,7 @@ services:
   caps_myadmin:
     image: phpmyadmin:latest
     container_name: caps_myadmin
-    restart: "no"
+    restart: "unless-stopped"
     ports:
       - 5554:80
     environment:

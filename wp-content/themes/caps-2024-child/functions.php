@@ -1,5 +1,5 @@
 <?php
-
+$theme_version = '1.0.0';
 function my_theme_variables()
 {
     $my_theme_variables = array(
@@ -29,8 +29,8 @@ function my_theme_variables()
 // }
 function pcsd_child_theme_enqueue_styles()
 {
-    wp_enqueue_style('variables', get_stylesheet_directory_uri() . '/assets/css/variables.css', '', '1.0.0', false);
+    wp_enqueue_style('variables', get_stylesheet_directory_uri() . '/assets/css/variables.css', '', $theme_version, false);
     //if custom styles are needed
-    wp_enqueue_style('child-style', get_stylesheet_directory_uri() . '/style.css');
+    wp_enqueue_style('child-style', get_stylesheet_directory_uri() . '/style.css', '', $theme_version, false);
 }
 add_action('wp_enqueue_scripts', 'pcsd_child_theme_enqueue_styles', 9999);

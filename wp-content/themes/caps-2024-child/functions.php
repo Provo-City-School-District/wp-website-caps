@@ -11,7 +11,7 @@ function my_theme_variables()
         // 'top_sidebar_cal' => '[calendar id="2064"]',
         // 'bot_sidebar_cal' => '[calendar id="2066"]',
         'front_page_cal' => '[calendar id="102"]',
-        'insta_link' => '#',
+        'insta_link' => 'https://www.instagram.com/provocaps/',
         'facebook_link' => '#',
         // 'twitter_link' => '#',
         'full_calendar_link' => 'http://158.91.1.130:8168/calendar/',

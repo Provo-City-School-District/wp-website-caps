@@ -1,5 +1,5 @@
 <?php
-$theme_version = '1.0.5';
+$theme_version = '1.0.5-1';
 /*==========================================================================================
 Theme Setup
 ============================================================================================*/
@@ -34,15 +34,15 @@ function pcsd_assets()
 	wp_enqueue_script('mainScripts');
 
 	if (is_front_page()) {
-		wp_enqueue_style('front_page', get_template_directory_uri() . '/assets/css/frontpage.css', array(), '1.0.14', false);
+		wp_enqueue_style('front_page', get_template_directory_uri() . '/assets/css/frontpage.css', array(), $theme_version, false);
 	}
 	if (is_page_template(
 		array(
 			'template-department_2024_news_links.php',
 		)
 	)) {
-		wp_enqueue_style('department', get_template_directory_uri() . '/assets/css/department-styles.css', '', '1.0.01', false);
-		wp_enqueue_style('tiles', get_template_directory_uri() . '/assets/css/tiles.css', '', '1.0.0', false);
+		wp_enqueue_style('department', get_template_directory_uri() . '/assets/css/department-styles.css', '', $theme_version, false);
+		wp_enqueue_style('tiles', get_template_directory_uri() . '/assets/css/tiles.css', '', $theme_version, false);
 	}
 
 	if (is_404()) {

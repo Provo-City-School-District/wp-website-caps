@@ -11,7 +11,7 @@ $theme_vars = my_theme_variables();
 ?>
 
 
-<main id="mainContent" class="homeMainContent">
+<main id="mainContent" class="homeMainContent frontpage">
 
 	<?php
 	//query any alerts
@@ -82,7 +82,7 @@ $theme_vars = my_theme_variables();
 							$background_image = get_stylesheet_directory_uri() . '/assets/images/building-image.jpg';
 						}
 				?>
-						<article class="sticky" style="background-image: url('<?php echo esc_url($background_image); ?>');">
+						<article class="sticky post" style="background-image: url('<?php echo esc_url($background_image); ?>');">
 
 
 							<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>

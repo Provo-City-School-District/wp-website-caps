@@ -95,6 +95,10 @@ Home Page News
 	padding: 2em;
 }
 
+.frontpage .post a {
+	color: var(--theme-white);
+}
+
 #homeNews .stories {}
 
 #homeNews .stories h2 {

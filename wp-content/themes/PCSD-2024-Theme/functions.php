@@ -1,5 +1,5 @@
 <?php
-$theme_version = '1.0.6';
+$theme_version = '1.0.6-1';
 /*==========================================================================================
 Theme Setup
 ============================================================================================*/
@@ -115,7 +115,6 @@ function shapeSpace_check_enum($redirect, $request)
 	if (preg_match('/\?author=([0-9]*)(\/*)/i', $request)) die();
 	else return $redirect;
 }
-
 
 // adds class .active to top menu item if the current active page is the page in the menu 
 // so that we can style that differently.
